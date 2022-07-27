@@ -7,7 +7,7 @@ const sleep = (time) => {
 };
 
 function App() {
-  const [height, setHeight] = useState(2.25);
+  const [height, setHeight] = useState(2);
   const [width, setWidth] = useState(3.5);
   const [quantity, setQuantity] = useState(8);
   const [togglePrint, setTogglePrint] = useState(false);
